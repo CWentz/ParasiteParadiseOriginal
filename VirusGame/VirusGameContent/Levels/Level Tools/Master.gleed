@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Level>
+  <LevelProperties>
+    <Name>Root</Name>
+    <Id>0</Id>
+    <Visible>true</Visible>
+    <Position>
+      <X>0</X>
+      <Y>0</Y>
+    </Position>
+    <CustomProperties />
+    <ContentRootFolder>c:\</ContentRootFolder>
+    <NextItemNumber>2</NextItemNumber>
+    <CameraPosition>
+      <X>0</X>
+      <Y>0</Y>
+    </CameraPosition>
+    <Version>2.0.0.0</Version>
+  </LevelProperties>
+  <Layers>
+    <Layer Name="Player">
+      <LayerProperties>
+        <Name>Player</Name>
+        <Id>0</Id>
+        <Visible>true</Visible>
+        <Position>
+          <X>0</X>
+          <Y>0</Y>
+        </Position>
+        <CustomProperties>
+          <Property Name="Player" Type="string" Description="">
+            <string />
+          </Property>
+        </CustomProperties>
+        <ScrollSpeed>
+          <X>1</X>
+          <Y>1</Y>
+        </ScrollSpeed>
+      </LayerProperties>
+      <Editors />
+    </Layer>
+    <Layer Name="Makrophage">
+      <LayerProperties>
+        <Name>Makrophage</Name>
+        <Id>0</Id>
+        <Visible>true</Visible>
+        <Position>
+          <X>0</X>
+          <Y>0</Y>
+        </Position>
+        <CustomProperties>
+          <Property Name="Makrophage" Type="string" Description="">
+            <string />
+          </Property>
+        </CustomProperties>
+        <ScrollSpeed>
+          <X>1</X>
+          <Y>1</Y>
+        </ScrollSpeed>
+      </LayerProperties>
+      <Editors />
+    </Layer>
+    <Layer Name="Helper">
+      <LayerProperties>
+        <Name>Helper</Name>
+        <Id>0</Id>
+        <Visible>true</Visible>
+        <Position>
+          <X>0</X>
+          <Y>0</Y>
+        </Position>
+        <CustomProperties>
+          <Property Name="Helper" Type="string" Description="">
+            <string />
+          </Property>
+        </CustomProperties>
+        <ScrollSpeed>
+          <X>1</X>
+          <Y>1</Y>
+        </ScrollSpeed>
+      </LayerProperties>
+      <Editors />
+    </Layer>
+    <Layer Name="Plasma">
+      <LayerProperties>
+        <Name>Plasma</Name>
+        <Id>0</Id>
+        <Visible>true</Visible>
+        <Position>
+          <X>0</X>
+          <Y>0</Y>
+        </Position>
+        <CustomProperties>
+          <Property Name="Plasma" Type="string" Description="">
+            <string />
+          </Property>
+        </CustomProperties>
+        <ScrollSpeed>
+          <X>1</X>
+          <Y>1</Y>
+        </ScrollSpeed>
+      </LayerProperties>
+      <Editors />
+    </Layer>
+    <Layer Name="Collection">
+      <LayerProperties>
+        <Name>Collection</Name>
+        <Id>0</Id>
+        <Visible>true</Visible>
+        <Position>
+          <X>0</X>
+          <Y>0</Y>
+        </Position>
+        <CustomProperties>
+          <Property Name="Collection" Type="string" Description="">
+            <string />
+          </Property>
+        </CustomProperties>
+        <ScrollSpeed>
+          <X>1</X>
+          <Y>1</Y>
+        </ScrollSpeed>
+      </LayerProperties>
+      <Editors />
+    </Layer>
+    <Layer Name="Flow">
+      <LayerProperties>
+        <Name>Flow</Name>
+        <Id>0</Id>
+        <Visible>true</Visible>
+        <Position>
+          <X>0</X>
+          <Y>0</Y>
+        </Position>
+        <CustomProperties>
+          <Property Name="Flow" Type="string" Description="">
+            <string />
+          </Property>
+        </CustomProperties>
+        <ScrollSpeed>
+          <X>1</X>
+          <Y>1</Y>
+        </ScrollSpeed>
+      </LayerProperties>
+      <Editors />
+    </Layer>
+    <Layer Name="Gefecht">
+      <LayerProperties>
+        <Name>Gefecht</Name>
+        <Id>0</Id>
+        <Visible>true</Visible>
+        <Position>
+          <X>0</X>
+          <Y>0</Y>
+        </Position>
+        <CustomProperties>
+          <Property Name="Gefecht" Type="string" Description="">
+            <string />
+          </Property>
+        </CustomProperties>
+        <ScrollSpeed>
+          <X>1</X>
+          <Y>1</Y>
+        </ScrollSpeed>
+      </LayerProperties>
+      <Editors />
+    </Layer>
+    <Layer Name="Monozyt">
+      <LayerProperties>
+        <Name>Monozyt</Name>
+        <Id>0</Id>
+        <Visible>true</Visible>
+        <Position>
+          <X>0</X>
+          <Y>0</Y>
+        </Position>
+        <CustomProperties>
+          <Property Name="Monozyt" Type="string" Description="">
+            <string />
+          </Property>
+        </CustomProperties>
+        <ScrollSpeed>
+          <X>1</X>
+          <Y>1</Y>
+        </ScrollSpeed>
+      </LayerProperties>
+      <Editors />
+    </Layer>
+    <Layer Name="Nerve">
+      <LayerProperties>
+        <Name>Nerve</Name>
+        <Id>0</Id>
+        <Visible>true</Visible>
+        <Position>
+          <X>0</X>
+          <Y>0</Y>
+        </Position>
+        <CustomProperties>
+          <Property Name="Nerve" Type="string" Description="">
+            <string />
+          </Property>
+        </CustomProperties>
+        <ScrollSpeed>
+          <X>1</X>
+          <Y>1</Y>
+        </ScrollSpeed>
+      </LayerProperties>
+      <Editors />
+    </Layer>
+    <Layer Name="Trigger">
+      <LayerProperties>
+        <Name>Trigger</Name>
+        <Id>0</Id>
+        <Visible>true</Visible>
+        <Position>
+          <X>0</X>
+          <Y>0</Y>
+        </Position>
+        <CustomProperties>
+          <Property Name="Trigger" Type="string" Description="">
+            <string />
+          </Property>
+        </CustomProperties>
+        <ScrollSpeed>
+          <X>1</X>
+          <Y>1</Y>
+        </ScrollSpeed>
+      </LayerProperties>
+      <Editors />
+    </Layer>
+    <Layer Name="Valve">
+      <LayerProperties>
+        <Name>Valve</Name>
+        <Id>0</Id>
+        <Visible>true</Visible>
+        <Position>
+          <X>0</X>
+          <Y>0</Y>
+        </Position>
+        <CustomProperties>
+          <Property Name="Valve" Type="string" Description="">
+            <string />
+          </Property>
+        </CustomProperties>
+        <ScrollSpeed>
+          <X>1</X>
+          <Y>1</Y>
+        </ScrollSpeed>
+      </LayerProperties>
+      <Editors />
+    </Layer>
+    <Layer Name="BloodCell">
+      <LayerProperties>
+        <Name>BloodCell</Name>
+        <Id>0</Id>
+        <Visible>true</Visible>
+        <Position>
+          <X>0</X>
+          <Y>0</Y>
+        </Position>
+        <CustomProperties>
+          <Property Name="BloodCell" Type="string" Description="Spawns blood cells.">
+            <string />
+          </Property>
+        </CustomProperties>
+        <ScrollSpeed>
+          <X>1</X>
+          <Y>1</Y>
+        </ScrollSpeed>
+      </LayerProperties>
+      <Editors />
+    </Layer>
+    <Layer Name="Collision">
+      <LayerProperties>
+        <Name>Collision</Name>
+        <Id>0</Id>
+        <Visible>true</Visible>
+        <Position>
+          <X>0</X>
+          <Y>0</Y>
+        </Position>
+        <CustomProperties>
+          <Property Name="Collision" Type="string" Description="">
+            <string />
+          </Property>
+        </CustomProperties>
+        <ScrollSpeed>
+          <X>1</X>
+          <Y>1</Y>
+        </ScrollSpeed>
+      </LayerProperties>
+      <Editors />
+    </Layer>
+    <Layer Name="BloodCellDespawner">
+      <LayerProperties>
+        <Name>BloodCellDespawner</Name>
+        <Id>0</Id>
+        <Visible>true</Visible>
+        <Position>
+          <X>0</X>
+          <Y>0</Y>
+        </Position>
+        <CustomProperties>
+          <Property Name="BloodCellDespawner" Type="string" Description="">
+            <string />
+          </Property>
+        </CustomProperties>
+        <ScrollSpeed>
+          <X>1</X>
+          <Y>1</Y>
+        </ScrollSpeed>
+      </LayerProperties>
+      <Editors />
+    </Layer>
+    <Layer Name="LevelTexture">
+      <LayerProperties>
+        <Name>LevelTexture</Name>
+        <Id>0</Id>
+        <Visible>true</Visible>
+        <Position>
+          <X>0</X>
+          <Y>0</Y>
+        </Position>
+        <CustomProperties>
+          <Property Name="LevelTexture" Type="string" Description="">
+            <string />
+          </Property>
+        </CustomProperties>
+        <ScrollSpeed>
+          <X>1</X>
+          <Y>1</Y>
+        </ScrollSpeed>
+      </LayerProperties>
+      <Editors />
+    </Layer>
+  </Layers>
+  <TypeMap />
+</Level>

@@ -1,0 +1,3 @@
+14.02.2013 00:49:56.835 - Log File created.
+14.02.2013 00:49:56.849 - Game1 creation started.
+14.02.2013 00:50:35.100 - Application ended.

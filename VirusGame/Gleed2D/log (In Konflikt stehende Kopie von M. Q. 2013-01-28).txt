@@ -1,0 +1,2 @@
+28.01.2013 16:53:16.970 - Log File created.
+28.01.2013 16:53:16.989 - Game1 creation started.

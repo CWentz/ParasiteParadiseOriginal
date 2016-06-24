@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{7F2A455C-D076-44E8-98E1-555CBC6CABE8}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VirusGame</RootNamespace>
+    <AssemblyName>VirusGame</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <XnaPlatform>Windows</XnaPlatform>
+    <XnaProfile>HiDef</XnaProfile>
+    <XnaCrossPlatformGroupID>ab3250e6-701f-40d6-b916-0d037a66fbbd</XnaCrossPlatformGroupID>
+    <XnaOutputType>Game</XnaOutputType>
+    <ApplicationIcon>Game.ico</ApplicationIcon>
+    <Thumbnail>GameThumbnail.png</Thumbnail>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>True</XnaCompressContent>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>true</XnaCompressContent>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <StartupObject>VirusGame.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DebugViewXNA">
+      <HintPath>.\DebugViewXNA.dll</HintPath>
+    </Reference>
+    <Reference Include="FarseerPhysicsXNA">
+      <HintPath>.\FarseerPhysicsXNA.dll</HintPath>
+    </Reference>
+    <Reference Include="Gleed2D.InGame">
+      <HintPath>.\Gleed2D.InGame.dll</HintPath>
+    </Reference>
+    <Reference Include="lua51">
+      <HintPath>.\lua51.dll</HintPath>
+    </Reference>
+    <Reference Include="LuaInterface">
+      <HintPath>.\LuaInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.GamerServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Xact, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Video, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Avatar, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Net, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Storage, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Camera\Camera2D.cs" />
+    <Compile Include="Camera\CameraPan.cs" />
+    <Compile Include="Controls.cs" />
+    <Compile Include="LevelManager.cs" />
+    <Compile Include="SoundEngine.cs" />
+    <Compile Include="Spawner.cs" />
+    <Compile Include="SpriteClasses\alarmSprite.cs" />
+    <Compile Include="SpriteClasses\BloodControl\BloodAnimation.cs" />
+    <Compile Include="SpriteClasses\BloodControl\BloodSpawner.cs" />
+    <Compile Include="SpriteClasses\BloodControl\ParticleSpawner.cs" />
+    <Compile Include="SpriteClasses\CollectCell.cs" />
+    <Compile Include="SpriteClasses\fadingSprite.cs" />
+    <Compile Include="SpriteClasses\Menu\BubblingSprite.cs" />
+    <Compile Include="SpriteClasses\Menu\FinishSprite.cs" />
+    <Compile Include="SpriteClasses\Menu\PauseMenuSprite.cs" />
+    <Compile Include="SpriteClasses\Menu\Points.cs" />
+    <Compile Include="SpriteClasses\NPCSprites\BrainSprite.cs" />
+    <Compile Include="SpriteClasses\Player\ConfusionCloud.cs" />
+    <Compile Include="SpriteClasses\Player\PlayerCollect.cs" />
+    <Compile Include="SpriteClasses\TextureManager.cs" />
+    <Compile Include="UI\CreditScreen.cs" />
+    <Compile Include="UI\MainMenuAnimation.cs" />
+    <Compile Include="UI\StartingVideo.cs" />
+    <Compile Include="SpriteClasses\NPCSprites\HilferCell.cs" />
+    <Compile Include="SpriteClasses\NPCSprites\PlasmaShot.cs" />
+    <Compile Include="SpriteClasses\Parallax\Background.cs" />
+    <Compile Include="SpriteClasses\Parallax\BackgroundSprite.cs" />
+    <Compile Include="SpriteClasses\Parallax\Prop.cs" />
+    <Compile Include="SpriteClasses\Player\PlayerConfuse.cs" />
+    <Compile Include="SpriteClasses\Player\PlayerHeal.cs" />
+    <Compile Include="SpriteClasses\Player\PlayerBleed.cs" />
+    <Compile Include="SpriteClasses\SpriteManager.cs" />
+    <Compile Include="SpriteClasses\Switches\TriggerCell.cs" />
+    <Compile Include="SpriteClasses\BloodControl\BloodDespawner.cs" />
+    <Compile Include="SpriteClasses\Valves\Claps.cs" />
+    <Compile Include="SpriteClasses\Valves\Gefecht.cs" />
+    <Compile Include="SpriteClasses\Valves\Valve.cs" />
+    <Compile Include="UI\ScoreBoard.cs" />
+    <Compile Include="UI\ScoreBoard_Percent.cs" />
+    <Compile Include="UI\TimerSprite.cs" />
+    <Compile Include="UI\Tips.cs" />
+    <Compile Include="UI\Tutorial\Tooltip.cs" />
+    <Compile Include="_Farseer\VelocityRect.cs" />
+    <Compile Include="_Farseer\ConvertUnits.cs" />
+    <Compile Include="FPSMonitor.cs" />
+    <Compile Include="Globals.cs" />
+    <Compile Include="_Farseer\LineBatch.cs" />
+    <Compile Include="SpriteClasses\Animation.cs" />
+    <Compile Include="SpriteClasses\AnimationManager.cs" />
+    <Compile Include="SpriteClasses\BackgroundSpriteOld.cs" />
+    <Compile Include="SpriteClasses\BaseSprite.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="SpriteClasses\Circle.cs" />
+    <Compile Include="SpriteClasses\flowRectangles.cs" />
+    <Compile Include="SpriteClasses\MovingSprite.cs" />
+    <Compile Include="SpriteClasses\NPCSprites\MakrophageCell.cs" />
+    <Compile Include="SpriteClasses\NPCSprites\MonozytCell.cs" />
+    <Compile Include="SpriteClasses\NPCSprites\PlasmaCell.cs" />
+    <Compile Include="SpriteClasses\PlayerSprite.cs" />
+    <Compile Include="SpriteClasses\NPCSprites\BloodCell.cs" />
+    <Compile Include="SpriteClasses\Switches\NerveCell.cs" />
+    <Compile Include="SpriteClasses\Player\PlayerAttack.cs" />
+    <Compile Include="UI\GameUI.cs" />
+    <Compile Include="UI\LoadingScreen.cs" />
+    <Compile Include="UI\PauseScreen.cs" />
+    <Compile Include="UI\SaveLoadScreen.cs" />
+    <Compile Include="UI\StartScreen.cs" />
+    <Compile Include="VirusGameMain.cs" />
+    <Compile Include="_Characters\Player.cs" />
+    <Compile Include="_Farseer\MyTexture.cs" />
+    <Compile Include="_Farseer\PathTile.cs" />
+    <Compile Include="_Farseer\Tile.cs" />
+    <Compile Include="_Levels\Level7.cs" />
+    <Compile Include="_Levels\Level6.cs" />
+    <Compile Include="_Levels\Level0.cs" />
+    <Compile Include="_Levels\Level1.cs" />
+    <Compile Include="_Levels\Level2.cs" />
+    <Compile Include="_Levels\Level3.cs" />
+    <Compile Include="_Levels\Level5.cs" />
+    <Compile Include="_Levels\LevelMain.cs" />
+    <Compile Include="_Levels\Level4.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Game.ico" />
+    <Content Include="GameThumbnail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VirusGameContent\VirusGameContent.contentproj">
+      <Name>VirusGameContent</Name>
+      <XnaReferenceType>Content</XnaReferenceType>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Xna.Framework.4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft XNA Framework Redistributable 4.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.manifest" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
+  <!--
+      To modify your build process, add your task inside one of the targets below and uncomment it. 
+      Other similar extension points exist, see Microsoft.Common.targets.
+      <Target Name="BeforeBuild">
+      </Target>
+      <Target Name="AfterBuild">
+      </Target>
+    -->
+</Project>
